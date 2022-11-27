@@ -1,0 +1,73 @@
+body{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    overflow: hidden;
+    background: linear-gradient(#f00,#f3c2c2);
+
+}
+@import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@100&family=Noto+Serif:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cousine:ital,wght@0,700;1,400&display=swap');
+.app {
+    display: flex;
+    border-radius: 17px;
+    background-color: white;
+    width: 800px;
+    height: 400px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+.app__header {
+    padding: 20px;
+    padding-bottom:0 ;
+    font-family: 'Cousine', monospace;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.par {
+    font-weight: 500;
+    font-size:25px;
+    color: #f00;
+}
+.app__content {
+    font-size: 25px;
+    font-family: 'Cousine', monospace;
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+    align-content: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+#city{
+    width: 200px;
+    height: 35px;
+    border-radius: 4px;
+    border-color: #a9a2a2;
+    box-shadow: 1px 3px 6px 0px #877a7a;
+}
+
+.btn {
+    margin: 20px;
+    width: 220px;
+    height: 50px;
+    border-radius: 20px;
+    border: none;
+    background-color: #ff6a00eb;
+    transition-duration: 0.3s;
+    font-size: 22px;
+}
+.btn:hover{
+    
+    cursor: pointer;
+    color: wheat;
+}
